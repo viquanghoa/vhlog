@@ -1,0 +1,21 @@
+{
+  "name": "vlog",
+  "version": "1.0.0",
+  "description": "for nodejs module",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viquanghoa/vlog.git"
+  },
+  "keywords": [
+    "logger",
+    "console",
+    "log"
+  ],
+  "author": {
+    "name": "Vi Quang Hoa"
+  },
+  "license": "MIT"
+}
