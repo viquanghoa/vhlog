@@ -1,5 +1,7 @@
 # vLog
-
+```
+npm install vhlog
+```
 ### Examples
 ```
 var vlog = require('vlog'); 

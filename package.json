@@ -1,5 +1,5 @@
 {
-  "name": "vlog",
+  "name": "vhlog",
   "version": "1.0.0",
   "description": "for nodejs module",
   "main": "index.js",
@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/viquanghoa/vlog.git"
+    "url": "git+https://github.com/viquanghoa/vhlog.git"
   },
   "keywords": [
     "logger",
