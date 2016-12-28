@@ -10,6 +10,8 @@ vlog.error('text error', {'msg':'message message message'});
 vlog.trace('text trace', 'vhoa');
 vlog.debug('text debug', 'vhoa');
 vlog.info('text info', 'vhoa');
+
+vlog.dp('PREFIX', 'vhoa');
 ```
 ### Result
 ```
@@ -27,4 +29,5 @@ Trace: [TRACE] text trace vhoa
     at node.js:962:3
 [DEBUG] text debug vhoa
 [INFO] text info vhoa
+[PREFIX] vhoa
 ```

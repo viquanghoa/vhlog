@@ -19,5 +19,13 @@ var vLog = function () {
     arguments[0] = '[TRACE] ' + arguments[0];
     console.trace.apply(this, arguments);
   };
+  /**
+   * Dynamic prefix
+   * @returns {undefined}
+   */
+  this.dp = function () {
+    arguments[0] = '[' + arguments[0] + '] ';
+    console.log.apply(this, arguments);
+  };
 };
 module.exports = new vLog;
